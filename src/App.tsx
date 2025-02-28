@@ -1,3 +1,13 @@
+import { Container } from "@mantine/core";
+import { BasicLayout } from "./layouts/BasicLayout";
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <BasicLayout>
+      <Container
+        size="responsive"
+        bg="var(--mantine-color-blue-light)"
+      ></Container>
+    </BasicLayout>
+  );
 };
